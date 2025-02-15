@@ -1,0 +1,88 @@
+
+.container-table{
+    height: 400px;
+    overflow: auto;
+    
+}
+.table{
+    border: 1px solid var(--border-color);
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+    border-collapse: collapse;
+    
+    
+}
+
+.table__list-heading{
+    border: 1px solid rgb(174, 174, 174);
+    height: 40px;
+    flex: 1;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.table__list-item{
+    background-color: var(--white-color);
+    text-align: center;
+    width: 11.12%;
+    font-size: 1.2rem;
+    height: 80px;
+    
+}
+.table__list-item div{
+    height: 50px;
+    overflow: auto;
+}
+.table__list-item-mota{
+    overflow: auto;
+    outline: none;
+   text-align: center;
+    height: 50px;
+    border: none;
+    width: 100%;
+    
+    resize: none;
+}
+.table__list-item-mota::-webkit-scrollbar{
+    width: 2px;
+}
+.table__list-item ul{
+    list-style: none;
+}
+.table__list-item ul li{
+    background-color: rgb(169, 169, 169);
+    width: 90%;
+    display: flex;
+   border-radius: 10px;
+   align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.table__list-item ul li:hover{
+    background-color: var(--primary-color);
+    height: 30px;
+    border-radius: 15px;
+}
+.table__list-item ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+/* danh mục */
+.container-table-danhmuc{
+    width: 600px;
+    overflow: auto;
+}
+.app__container .grid{
+    width: 100%;
+    padding: 20px;
+}
+.home-filter__btn:hover{
+    background-color: var(--primary-color);
+}
+.grid__danhmuc{
+    width: 1200;
+}

@@ -1,0 +1,77 @@
+.auth-form-register{
+    height: 640px;
+    overflow: auto;
+}
+.auth-form-register::-webkit-scrollbar{
+    width: 1px;
+}
+.auth-form-register .auth-form__controls{
+    margin: 0;
+}
+.home-product-item__origin-name{
+   
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; 
+        -webkit-box-orient: vertical;
+}
+.home-filter-information-receive{
+    margin-bottom: 40px;
+    height:100px;
+    background-color: var(--white-color);
+}
+.home-filter-information-receive-header{
+    display: flex;
+    height: 40%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.information-receive-header-icon{
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+.information-receive-header-text{
+    font-size: 1.8rem;
+    margin-left: 10px;
+    color: var(--primary-color);
+}
+.home-filter-information-receive-content{ 
+    
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-filter-information-receive-content-name-phone{
+    width: 30%;
+    margin-left: 30px;
+}
+.home-filter-information-receive-content-name{ 
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.home-filter-information-receive-content-phone{ 
+    border: none;
+    height: 26px;
+    padding: 0 4px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.home-filter-information-receive-content-address{
+    border-radius: 4px;
+    flex: 1;
+    height: auto;
+    padding: 10px;
+    margin-right: 20px;
+    outline: none;
+    border: 1px solid rgb(192, 192, 192);
+
+}
+.home-card-order-btn-mua{
+    margin-right: 40px;
+}

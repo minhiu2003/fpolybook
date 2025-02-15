@@ -1,0 +1,273 @@
+
+
+.home-card{ 
+    width: 100%;
+}
+.home-card-list{
+    margin-left: 0;
+
+}
+.home-card-item{
+    display: flex;
+    background-color: var(--white-color);
+    margin: 10px;
+    border-radius: 4px;
+   
+    
+   
+}
+.home-card-item:hover{
+    position: relative;
+    bottom: 4px;
+    box-shadow: 1px 2px 8px rgb(203, 203, 203);
+}
+.home-card-item-img{
+    width: 100px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.home-card-item-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-card-item-name{
+    width: 220px;
+    height: 120px;
+    word-wrap: break-word;
+}
+.home-card-item-name-text{
+    height:100px ;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 20px;
+    margin-top: 20px;
+}
+.home-card-item-danhmuc{
+   
+   margin: 0 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.home-card-item-danhmuc-text{
+    font-weight: 600;
+    height:100px ;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 20px;
+    margin-top: 40px;
+}
+.home-card-item-price{
+    display: flex;
+    margin:0 20px;
+    width: 120px;
+    align-items: center;
+    justify-content: space-between;
+   text-align: center;
+}
+.home-card-item-price-old{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-decoration: line-through;
+    color: rgb(93, 93, 93);
+}
+.home-card-item-price-new{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: red;
+}
+.home-card-item-quantity{
+   
+    width: 12rem;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-card-item-quantity-input{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.home-card-item-quantity-number{
+    width: 70px;
+}
+.home-card-item-delete{
+    margin: 0 10px;
+}
+.home-card__btn-delete{
+    height: 32px;
+    width: 100px;
+    border: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    border-radius: 4px;
+}
+.home-card__btn-delete:hover{
+    background-color: aliceblue;
+}
+.home-card__btn-muangay:hover{
+    background-color: rgb(255, 91, 91);
+}
+.home-card__muangay{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container__giohang{
+    min-height: 600px;
+    margin: 10px 0;
+}
+.home-filter__buyall-tongtien{
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    background: none;
+    outline: none;
+    width: 100px;
+}
+.home-filter__btn-buyall{
+    margin-left: 40px;
+}
+.home-filter__btn-buyall:hover{
+   background-color: rgb(255, 83, 83);
+}
+.home-filter__buyall-tongtien-text{
+    font-size: 1.6rem;
+    
+}
+.home-filter__buyall{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);
+}
+.home-card-list-donhang{
+    height: 200px;
+   
+    overflow: auto;
+}
+.home-card{
+    margin-top: 10px;
+}
+.home-card-item-thanhtien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-card-item-thanhtien-text{
+    font-size: 1.6rem;
+}
+.home-card-item-thanhtien-number{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 500;
+}
+.home-card-order{
+    height: 60px;
+    background-color: var(--white-color);
+   
+    margin-top: 2px;
+    border-top: 1px solid var(--border-color);
+}
+.home-card-order{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-card-order-trangthai{
+   
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-card-order-trangthai-text{
+    font-size: 1.6rem;
+   
+    
+}
+.home-card-order-trangthai-text-a{
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+}
+.home-card-order-tongtien{
+  
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-card-order-tongtien-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.home-card-order-tongtien-number{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: red;
+}
+.home-card-id-order{
+    padding: 0 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid var(--border-color) ;
+    
+}
+.home-card-id-order-text{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-color);
+   
+}
+.home-card-id-order-text-id{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.auth-form-review-information{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.auth-form__group-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.home-card-inp-checkbox{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.home-filter__buyall-control{
+    display: flex;
+}
+.home-card-address{
+    font-size: 1.2rem;
+}
+.infor-product__right-btn-buy-link{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
